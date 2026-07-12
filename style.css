@@ -294,3 +294,55 @@
 }
 
 
+/* =======FAQs Section with AI===== */
+/* FAQ Section - Beginner CSS */
+.faqs {
+    padding: 60px 0;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 40px 0px 40px 0px;
+    color: #222;
+}
+
+.faq-wrap {
+    display: flex;
+    gap: 30px;
+}
+
+.faq-col {
+    width: 50%;
+}
+
+.faq-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #1a1a1a;
+}
+
+.faq-item p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Make it stack on mobile */
+@media screen and (max-width: 768px) {
+    .faq-wrap {
+        display: block;
+    }
+    
+    .faq-col {
+        width: 100%;
+    }
+}
