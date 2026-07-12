@@ -1,0 +1,53 @@
+/* removing defult desing propertics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* =========Common Design========== */
+/* container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* common button */
+.btn-common{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-width: bold;
+    cursor: pointer;
+}
+.btn-common:hover{
+    background-color: #0a3696;
+}
+/* common heading */
+
+
+/* ===========Header Area Design=========== */
+/* navbar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+/* Main Manu Styling */
+.main-menu a{
+    text-decoration: none;
+    color: rgb(83, 69, 69);
+    margin: 0 15px;
+    font-weight: 400;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+.main-menu a:hover{
+    color:rgb(19, 19, 66);
+    cursor: pointer;
+}
