@@ -1,5 +1,5 @@
 /* removing defult desing propertics */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,33 +12,38 @@
     max-width: 1200px;
     margin: auto;
 }
+
 /* common button */
-.btn-common{
+.btn-common {
     background-color: #2563eb;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 7px;
+    font-size: 1.2rem;
     font-width: bold;
     cursor: pointer;
 }
-.btn-common:hover{
+
+.btn-common:hover {
     background-color: #0a3696;
 }
+
 /* common heading */
 
 
 /* ===========Header Area Design=========== */
 /* navbar styling */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     background-color: white;
 }
+
 /* Main Manu Styling */
-.main-menu a{
+.main-menu a {
     text-decoration: none;
     color: rgb(83, 69, 69);
     margin: 0 15px;
@@ -47,7 +52,39 @@
     font-size: 1rem;
 }
 
-.main-menu a:hover{
-    color:rgb(19, 19, 66);
+.main-menu a:hover {
+    color: rgb(19, 19, 66);
     cursor: pointer;
+}
+
+/* nav area end */
+/* ==============Hero Desing============= */
+.hero-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-cont {
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* heading */
+.hero-cont h1 {
+    font-size: 3rem;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.hero-cont h1 em {
+    font-style: italic;
+    font-weight: normal;
+}
+/* hero paragraph */
+.hero-cont p {
+    color: #cccccc;
+    font-size: 1.2rem;
+    margin-bottom: 20%;
 }
