@@ -29,6 +29,23 @@
     background-color: #0a3696;
 }
 
+/* outline button */
+.btn-outline {
+    background-color: white;
+    color: 2563eb;
+    border: 1px solid #0a3696;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-width: bold;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background-color: #0a3696;
+    color: white;
+}
+
 /* common heading */
 
 
@@ -163,4 +180,117 @@
     margin: 0;
 }
 /* spkr sec end */
+
+/* ========Prising Area============ */
+
+/* feture card page subtitle */
+.price-sec{
+    margin-top: 50px;
+}
+.price-sec .price-sec-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.price-sec .sec-subtitle{
+    text-align: center;
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+/* price card container */
+.price-cont {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* price card info style */
+.price-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 40px 30px;
+    width: 32%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+/* fetured highlighted card */
+.fetured {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+    transform: scale(1.02);
+}
+
+.plan-type {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+.featured-card .plan-type {
+    color: #94a3b8;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.fetured .price {
+    color: #ffffff;
+}
+
+.price-sub {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.featured-card .price-sub {
+    color: #94a3b8;
+}
+
+.features-list {
+    list-style-type: none;
+    margin-bottom: 40px;
+    flex-grow: 1;  
+}
+
+.features-list li {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.features-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+}
+
+.featured-card .features-list li::before {
+    color: #3b82f6;
+}
+
+.btn-pricing {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
 
