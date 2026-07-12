@@ -85,20 +85,24 @@
     text-align: center;
     padding: 100px 20px;
 }
+
 .hero-cont {
     max-width: 800px;
     margin: 0 auto;
 }
+
 /* heading */
 .hero-cont h1 {
     font-size: 3rem;
     margin: 20px;
     letter-spacing: 1px;
 }
+
 .hero-cont h1 em {
     font-style: italic;
     font-weight: normal;
 }
+
 /* hero paragraph */
 .hero-cont p {
     color: #cccccc;
@@ -107,44 +111,48 @@
 }
 
 /* ===================Spkr Section====================== */
-.spkr-sec{
+.spkr-sec {
     margin-top: 50px;
 }
-.sec-title{
+
+.sec-title {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 50px;
 
 }
+
 /* bottom img and content area */
-.spkr-grid{
+.spkr-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     padding: 10px;
     Margin: 0 auto;
 }
+
 /* card container */
-.spkr-card{
+.spkr-card {
     background-color: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     overflow: hidden;
-    width: 100%; 
+    width: 100%;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .spkr-img {
     width: 100%;
-    height: auto; 
+    height: auto;
 
 }
+
 /* img sec */
-.spkr-img img{
+.spkr-img img {
     width: 100%;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     object-position: top;
     display: block;
 }
@@ -157,7 +165,7 @@
 
 /* Blue cat label */
 .spkr-label {
-    color: #2563eb; 
+    color: #2563eb;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -169,35 +177,39 @@
 .spkr-info h3 {
     font-size: 18px;
     font-weight: 600;
-    color: #1f2937;  
+    color: #1f2937;
     margin: 0 0 6px 0;
 }
 
 /* spkr Job title  */
 .spkr-info p:last-child {
     font-size: 14px;
-    color: #6b7280;  
+    color: #6b7280;
     margin: 0;
 }
+
 /* spkr sec end */
 
 /* ========Prising Area============ */
 
 /* feture card page subtitle */
-.price-sec{
+.price-sec {
     margin-top: 50px;
 }
-.price-sec .price-sec-title{
+
+.price-sec .price-sec-title {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 20px;
 }
-.price-sec .sec-subtitle{
+
+.price-sec .sec-subtitle {
     text-align: center;
     font-size: 1rem;
     color: #94a3b8;
     margin-bottom: 40px;
 }
+
 /* price card container */
 .price-cont {
     display: flex;
@@ -220,6 +232,7 @@
     display: flex;
     flex-direction: column;
 }
+
 /* fetured highlighted card */
 .fetured {
     background-color: #0f172a;
@@ -263,7 +276,7 @@
 .features-list {
     list-style-type: none;
     margin-bottom: 40px;
-    flex-grow: 1;  
+    flex-grow: 1;
 }
 
 .features-list li {
@@ -341,8 +354,108 @@
     .faq-wrap {
         display: block;
     }
-    
+
     .faq-col {
         width: 100%;
     }
+}
+
+
+/* ==========Footer styling======= */
+footer {
+    background-color: #0f172a;
+    padding-top: 50px;
+
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer top text */
+.footer-top {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #94a3b8;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.footer-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* newsletter desing */
+.newsletter h3 {
+    color: white;
+}
+
+.newsletter input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #64748b;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+/* footer soical and paragraph */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-top p {
+    color: #cccccc;
+    font-style: italic;
+    text-align: center;
+    margin: 15px 0px 10px 0px;
+}
+
+.footer-social .icons i {
+    font-size: 20px;
+    color: #666;
+    margin: 0 8px;
+}
+
+.footer-social .icons a {
+    text-decoration: none;
+}
+
+.footer-social .icons a:hover i {
+    color: #0077b5;
+}
+
+/* footer copyright */
+.copy-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    color: #cccccc;
+}
+
+.copy-cont .copy-link a {
+    gap: 20px;
+    text-decoration: none;
+    color: #94a3b8;
+}
+
+.copy-cont .copy-link a:hover {
+    color: #cccccc;
 }

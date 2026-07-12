@@ -10,6 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <!-- fontasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <title>DevConf2026 - Programing Hero Assignment 1</title>
     <!-- external css -->
     <link rel="stylesheet" href="./style.css">
@@ -24,11 +27,11 @@
         </div>
         <!-- main menu -->
         <nav class="main-menu">
-            <a href="#">Speakers</a>
+            <a href="#spkr">Speakers</a>
+            <a href="#price">Price</a>
             <a href="#">Schedule</a>
             <a href="#">Tracks</a>
-            <a href="#">Venue</a>
-            <a href="#">Blog</a>
+            <a href="#faqs">FAQs</a>
         </nav>
         <!-- register button -->
         <button class="btn-common">
@@ -49,7 +52,7 @@
     </section>
     <!-- hero banner end -->
     <!-- ===============Spekar Section=================== -->
-    <section class="spkr-sec container">
+    <section id="spkr" class="spkr-sec container">
         <h2 class="sec-title">
             Meet The Speakers
         </h2>
@@ -115,7 +118,7 @@
     <!-- end of spkr section -->
 
     <!-- =============Prising Plan============= -->
-    <section class="price-sec container">
+    <section id="price" class="price-sec container">
         <h2 class="price-sec-title">Secure Your Spot</h2>
         <p class="sec-subtitle"> Early bird price ends August 15, 2026.</p>
 
@@ -170,9 +173,9 @@
 
         </div>
     </section>
-    
+
     <!-- =================MisSec: FAQs with AI================== -->
-    <section class="faqs container">
+    <section id="faqs" class="faqs container">
         <h2>Frequently Asked Questions</h2>
 
         <div class="faq-wrap">
@@ -220,6 +223,61 @@
         </div>
     </section>
     <!-- FAQs by AI end -->
+
+    <!-- ==============Footer Area============= -->
+    <footer class="footer-sec">
+        <div class="footer-cont container">
+
+            <div class="footer-top">
+                <!-- footer left -->
+                <div class="footer-logo">
+                    <img src="./assets/footer-logo.png" alt="footer logo">
+                </div>
+                <!-- footer right: social media -->
+                <div class="footer-top-right">
+                    <!-- newsletter bar-->
+                    <div class="newsletter">
+                        <!-- <h3>Sign up to get first notification</h3> -->
+                        <p>Get Events Update Fast: </p>
+                        <form>
+                            <input type="email" placeholder="Your Email Address">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                    <!-- social area -->
+                    <div class="footer-social">
+                        <p>Find us on: </p>
+                        <div class="icons">
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/profile.php?id=61589397682138" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <!-- github -->
+                            <a href="https://github.com/RusulAzom" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <!-- X -->
+                            <a href="https://x.com/yourpage" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- copyright area -->
+            <div class="copy-cont">
+                <div class="copy-text">
+                    © 2026 DevConf. All rights reserved.
+                </div>
+                <div class="copy-link">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
