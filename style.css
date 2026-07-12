@@ -88,3 +88,79 @@
     font-size: 1.2rem;
     margin-bottom: 20%;
 }
+
+/* ===================Spkr Section====================== */
+.spkr-sec{
+    margin-top: 50px;
+}
+.sec-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+
+}
+/* bottom img and content area */
+.spkr-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 10px;
+    Margin: 0 auto;
+}
+/* card container */
+.spkr-card{
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%; 
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spkr-img {
+    width: 100%;
+    height: auto; 
+
+}
+/* img sec */
+.spkr-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    object-position: top;
+    display: block;
+}
+
+/* Text info sec */
+.spkr-info {
+    padding: 16px 20px;
+    background-color: #ffffff;
+}
+
+/* Blue cat label */
+.spkr-label {
+    color: #2563eb; 
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px 0;
+}
+
+/* spkr name */
+.spkr-info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;  
+    margin: 0 0 6px 0;
+}
+
+/* spkr Job title  */
+.spkr-info p:last-child {
+    font-size: 14px;
+    color: #6b7280;  
+    margin: 0;
+}
+/* spkr sec end */
+
